@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family:'Montserrat', sans-serif;;
 }
 
 .clearfix::after{
@@ -15,9 +16,17 @@
     margin: 20px auto 20px;
 }
 
-img{
-    width: 200px;
-    padding: 10px;
+/* Layout */
+
+header{
+    height: 130px;
+    padding-left: 10px;
+}
+
+
+li{
+    display: inline-block;
+    margin-right: 20px;
 }
 
 ul{
@@ -28,19 +37,104 @@ a{
     color: gray;
     text-decoration: none;
 }
+
+
+
+.img-frst{
+    height: 560px; 
+    background-image: url("../img/banner.jpg");
+    border-radius: 20px;
+
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 70%;
+    height: 560px;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.central-img{
+    width: 65%;
+    height: 100%;
+    padding-top: 250px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    color: white;
+}
+
+.central-img h1{
+    margin-bottom: 40px;
+}
+
+
+img{
+    width: 200px;
+    padding: 10px;
+    border-right: 1px solid gray;
+}
+
+main{
+    
+}
+
+main .top-col{
+    width: 100%;
+    height: 20% ;
+}
+
+main .left-col{
+    float: left;
+    height: 72%;
+    margin-top: 20px;
+    width: 25%;
+}
+
+main .right-col{
+    float: left;
+    height: 72%;
+    margin-top: 20px;
+    width: 25%;
+}
+
+main .center-col{
+    float: left;
+    width: 46%;
+    height: 72%;
+    margin-top: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+/* / layout*/
+
+/* Debug 
+
 .debug header{
-    height: 100px;
+    height: 130px;
     background-color: #e46ed4; 
     padding-left: 10px;
 }
 
 .debug nav{
-    height: 450px;
+    height: 560px;
     background-color: #e7d36f;
 }
 
+
+.debug .central-img{
+    background-color: rgba(0, 128, 0, 0);
+    width: 65%;
+    height: 100%;
+    padding-top: 200px;
+    padding-bottom: 20px;
+  }
+
+*/
+
 .debug main{
-    height: 500px;
+    height: 700px;
     background-color: #2e2aff;
     margin-bottom: 10px;
 }
@@ -53,33 +147,16 @@ a{
     margin-top: 5px;
 }
 
-main .top-col{
+
+.debug .top-col{
     background-color: #b5b4d3;
     width: 100%;
     height: 20% ;
 }
 
-main .left-col{
-    float: left;
-    height: 72%;
-    margin-top: 20px;
-    width: 25%;
-    background-color: #b5b4d3;
-}
-
-main .right-col{
-    float: left;
-    height: 72%;
-    margin-top: 20px;
-    width: 25%;
-    background-color: #b5b4d3;
-}
 
 
- 
-
-
-main .center-col{
+.debug .center-col{
     float: left;
     background-color: #b5b4d3;
     width: 46%;
@@ -88,3 +165,22 @@ main .center-col{
     margin-left: 2%;
     margin-right: 2%;
 }
+
+.debug .left-col{
+    float: left;
+    height: 72%;
+    margin-top: 20px;
+    width: 25%;
+    background-color: #b5b4d3;
+}
+
+.debug .right-col{
+    float: left;
+    height: 72%;
+    margin-top: 20px;
+    width: 25%;
+    background-color: #b5b4d3;
+}
+
+
+/* / debug */
