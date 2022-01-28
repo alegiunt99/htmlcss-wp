@@ -74,13 +74,13 @@ header img{
 }
 
 main{
-    height: 700px;
+    height: 800px;
     border-bottom: 10px;
 }
 
 main .top-col{
     width: 100%;
-    height: 20% ;
+    height: 120px;
 }
 
 .left-col img, .right-col img{
@@ -138,9 +138,18 @@ main .center-col{
     margin-right: 2%;
 }
 
+footer{
+    height: 65px;
+    vertical-align: middle;
+    padding-left: 10px;
+    margin-top: 5px;
+    text-align: center;
+}
+
 /* / layout*/
 
-/* Debug 
+/* Debug *
+
 
 .debug header{
     height: 130px;
