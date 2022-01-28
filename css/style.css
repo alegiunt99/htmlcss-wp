@@ -19,11 +19,18 @@ img{
     width: 200px;
     padding: 10px;
 }
+
+ul{
+    list-style: none;
+}
+
+a{
+    color: gray;
+    text-decoration: none;
+}
 .debug header{
     height: 100px;
-    background-color: #e46ed4;
-    line-height: 100px;
-    vertical-align: middle;
+    background-color: #e46ed4; 
     padding-left: 10px;
 }
 
