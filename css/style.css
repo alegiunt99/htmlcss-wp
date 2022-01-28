@@ -33,26 +33,9 @@ ul{
     list-style: none;
 }
 
-a{
+a, .top-col span{
     color: gray;
     text-decoration: none;
-}
-
-
-
-.img-frst{
-    height: 560px; 
-    background-image: url("../img/banner.jpg");
-    border-radius: 20px;
-
-}
-
-.overlay{
-    background-color: rgba(0, 0, 0, 0.2);
-    width: 70%;
-    height: 560px;
-    position: absolute;
-    border-radius: 20px;
 }
 
 .central-img{
@@ -64,25 +47,73 @@ a{
     color: white;
 }
 
+.overlay{
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 70%;
+    height: 560px;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.img-frst{
+    height: 560px; 
+    background-image: url("../img/banner.jpg");
+    border-radius: 20px;
+
+}
+
 .central-img h1{
     margin-bottom: 40px;
 }
 
 
-img{
+header img{
     width: 200px;
     padding: 10px;
     border-right: 1px solid gray;
 }
 
 main{
-    
+    height: 700px;
+    border-bottom: 10px;
 }
 
 main .top-col{
     width: 100%;
     height: 20% ;
 }
+
+.left-col img, .right-col img{
+    width: 236px;
+    height: 192px;
+    border-radius: 15px;
+}
+
+.center-col img{
+    height: 192px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.left-col, .center-col, .right-col{
+    position: relative;
+    float: left;
+}
+.overly-1, .overly-2, .overly-3{
+    background-color: rgba(0,0,0,0.2);
+    position: absolute;
+    width: 100%;
+    height: 175px;
+    top: 0;
+    z-index: 2;
+    border-radius: 15px;
+}
+
+
+.top-col h1{
+    font-size: 50px;
+}
+
 
 main .left-col{
     float: left;
@@ -131,7 +162,7 @@ main .center-col{
     padding-bottom: 20px;
   }
 
-*/
+*
 
 .debug main{
     height: 700px;
